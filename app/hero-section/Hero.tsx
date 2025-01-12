@@ -33,18 +33,7 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
-          <Link
-            href="https://github.com/victorcodess"
-            target="_blank"
-            aria-label="View GitHub Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              GH
-            </motion.p>
-          </Link>
+          
           <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
@@ -72,13 +61,13 @@ const Hero = () => {
           <Link
             href="https://contra.com/victorwilliams"
             target="_blank"
-            aria-label="View Contra Profile"
+            aria-label="View INSTA Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              IN
             </motion.p>
           </Link>
         </div>
@@ -89,8 +78,8 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            title="TEJAS ASEGAONKAR"
+            style="inline-block  pt-1 -mr-3 sm:-mr-4 md:-mr-5 lg:-mr-7 -mb-1 sm:-mb-1 md:-mb-2 lg:-mb-3"
           />
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
@@ -100,9 +89,9 @@ const Hero = () => {
               src={profile}
               priority
               alt="Victor's headshot"
-              data-blobity-tooltip="Giga Chad"
+              data-blobity-tooltip="Motion Graphics"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className=" w-[150px] h-[150px] rounded-[16px] grayscale hover:grayscale-0 object-cover object-center md:w-[200px] md:rounded-[32px]"
             />
           </motion.div>
         </div>
@@ -113,31 +102,14 @@ const Hero = () => {
       justify-center
       md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
-        <motion.div
-          className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
-          variants={bodyAnimation}
-        >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
-            <Link
-              href="https://www.korahq.com/"
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
-            >
-              Kora,
-            </Link>{" "}
-            currently available for work.
-          </p>
-        </motion.div>
+        
 
         <motion.div
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Professional Video Editor &amp; Motion Graphics Designer with over 2 years of experience.
           </p>
         </motion.div>
       </div>
