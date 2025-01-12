@@ -25,18 +25,8 @@ const NavBar = () => {
         onClick={handleScroll}
         aria-label="Scroll to Home Section"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
           Home
-        </h4>
-      </Link>
-      <Link
-        href="#work"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Work Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Work
         </h4>
       </Link>
 
@@ -46,18 +36,27 @@ const NavBar = () => {
         onClick={handleScroll}
         aria-label="Scroll to About Section"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
           About
         </h4>
       </Link>
-
+      <Link
+        href="#work"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Work Section"
+      >
+        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+          Work
+        </h4>
+      </Link>
       <Link
         href="#contact"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Contact Section"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
           Contact
         </h4>
       </Link>
